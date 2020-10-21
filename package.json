@@ -6,7 +6,7 @@
   "engines": {"node": "v14.0.0"},
   "scripts": {
     "start": "node src/index.js",
-    "build": "node src/index.js",
+    "build": "react-script build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "nodemon src/index.js"
