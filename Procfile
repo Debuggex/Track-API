@@ -1,1 +1,1 @@
-dev:nodemon src/index.js
+web:node index.js
