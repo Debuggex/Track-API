@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {"node": "v14.0.0"},
   "scripts": {
     "start": "node src/index.js",
     "build": "node src/index.js",
