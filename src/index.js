@@ -1,5 +1,6 @@
 require('./Model/User');
 require('./Model/Track');
+var PORT = process.env.PORT||3000;
 const express= require('express');
 const mongoUri='mongodb+srv://D_isigner:uuiioopp@cluster0.2kptq.mongodb.net/<dbname>?retryWrites=true&w=majority'
 const app=express();
@@ -30,6 +31,6 @@ app.get('/',requireauths,(req,res)=>{
     res.send(`Your Email is ${req.user.email}`);
 });
 
-app.listen(3000,()=>{
+app.listen(PORT,()=>{
     console.log("Listening on Port 3000");
 })
