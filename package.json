@@ -6,7 +6,8 @@
     "node": "v14.0.0"
   },
   "scripts": {
-    
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
     
   },
   "keywords": [],
