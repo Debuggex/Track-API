@@ -2,7 +2,7 @@ require('./Model/User');
 require('./Model/Track');
 var PORT = process.env.PORT||5000;
 const express= require('express');
-const mongoUri='mongodb+srv://D_isigner:uuiioopp@cluster0.2kptq.mongodb.net/<dbname>?retryWrites=true&w=majority'
+const mongoUri='mongodb+srv://<Username>:<Password>@cluster0.2kptq.mongodb.net/<dbname>?retryWrites=true&w=majority'
 const app=express();
 const authroutes=require('./routes/authroutes');
 const mongoose=require('mongoose');
